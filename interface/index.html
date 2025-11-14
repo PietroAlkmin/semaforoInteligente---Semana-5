@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semáforo Inteligente - Interface Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Semáforo Inteligente - Controle e Monitoramento</h1>
+
+    <section id="status">
+        <h2>Status dos Semáforos</h2>
+        <div id="semaforo1">
+            <h3>Semáforo 1</h3>
+            <p>Luminosidade LDR: <span id="ldr1">--</span></p>
+            <p>Estado: <span id="estado1">--</span></p>
+        </div>
+        <div id="semaforo2">
+            <h3>Semáforo 2</h3>
+            <p>Luminosidade LDR: <span id="ldr2">--</span></p>
+            <p>Estado: <span id="estado2">--</span></p>
+        </div>
+    </section>
+
+    <section id="controles">
+        <h2>Controles</h2>
+        <button id="modoNoturnoBtn">Ativar Modo Noturno</button>
+        <button id="modoNormalBtn">Voltar ao Modo Normal</button>
+        <br><br>
+        <label for="mensagemLCD">Mensagem para LCD (Painel de Propaganda):</label>
+        <input type="text" id="mensagemLCD" placeholder="Digite a mensagem...">
+        <button id="enviarMensagemBtn">Enviar Mensagem</button>
+    </section>
+
+    <section id="logs">
+        <h2>Logs de Atividades</h2>
+        <div id="logContainer"></div>
+    </section>
+
+    <script src="https://unpkg.com/mqtt@4.3.7/dist/mqtt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
