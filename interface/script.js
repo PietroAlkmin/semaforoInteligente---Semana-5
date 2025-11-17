@@ -1,5 +1,5 @@
-// Conexão MQTT com Mosquitto local
-const client = mqtt.connect('ws://localhost:1883'); // Usando WebSocket para navegador
+// Conexão MQTT com Mosquitto local via WebSocket
+const client = mqtt.connect('ws://localhost:9001'); // Porta WebSocket do Mosquitto
 
 client.on('connect', () => {
     console.log('Conectado ao Mosquitto!');
