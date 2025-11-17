@@ -1,7 +1,7 @@
 ### Sistema de Semáforos Inteligente com Sensor LDR e Modo Noturno
 
 
-LINK das imagens e video demonstrativo:https://drive.google.com/drive/folders/1hZ-J_5z5H29-E_BpdBOBVze9a-kWM2x5?usp=sharing
+LINK das imagens e vídeo demonstrativo: [https://drive.google.com/drive/folders/1hZ-J_5z5H29-E_BpdBOBVze9a-kWM2x5?usp=sharing]  
 
 #### Parte 1 — Sistema Físico com LDR e Modo Noturno
 
@@ -20,6 +20,7 @@ O modo noturno é ativado ao detectar baixa luminosidade geral, não apenas dura
 
 
 A segunda parte do projeto consiste no desenvolvimento de uma interface online com diversos objetivos práticos. A interface permite visualizar em tempo real o valor lido pelo sensor LDR, possibilita ativar ou desativar manualmente o modo noturno, e oferece a capacidade de ajustar diversos parâmetros do semáforo, incluindo o tempo de duração de cada fase (verde, amarelo e vermelho) e os valores de threshold utilizados para detecção.
-
+Para complementar a visualização dos dados, foi adicionado um display LCD físico ao sistema, que exibe em tempo real as informações mais relevantes diretamente no hardware, como o valor atual do sensor LDR, o estado operacional do semáforo e o modo ativo (diurno ou noturno). Esta adição proporciona monitoramento local imediato, eliminando a necessidade de acesso constante ao dashboard online para verificações rápidas do sistema.
 As funcionalidades da interface incluem um dashboard de telemetria que exibe continuamente o valor lido pelo sensor LDR, proporcionando feedback visual imediato sobre as condições de luminosidade. Além disso, um sistema de controle manual permite ao usuário ativar o modo noturno a qualquer momento, forçar estados específicos dos semáforos ou pausar completamente o ciclo de operação, oferecendo flexibilidade total no gerenciamento do sistema.
+
 
