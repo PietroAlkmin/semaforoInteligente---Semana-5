@@ -11,6 +11,6 @@
 
 ## Descrição
 
-Este projeto simula um sistema de semáforos inteligentes integrados com um sensor LDR, capaz de detectar variações de luminosidade e adaptar automaticamente seu funcionamento conforme as condições do ambiente. Quando o nível de luz diminui, o sistema entra em modo noturno, ajustando o ciclo dos LEDs para otimizar o fluxo e o consumo de energia.
+Este projeto simula um sistema de semáforos inteligentes integrados com um sensor LDR, capaz de detectar variações de luminosidade e adaptar automaticamente o funcionamento dos semáforos conforme as condições do ambiente. Quando o nível de luz diminui, o sistema entra em modo noturno, ajustando o ciclo dos LEDs para otimizar o fluxo de energia.
 
 Além da montagem física com ESP 32, foi desenvolvida uma interface web que permite visualizar os dados do sensor em tempo real e controlar o comportamento dos semáforos de forma remota, representando um exemplo prático de integração entre hardware e web no contexto de cidades inteligentes.
