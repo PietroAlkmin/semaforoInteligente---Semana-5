@@ -1,5 +1,6 @@
-// Conexão MQTT com Mosquitto local via WebSocket
-const client = mqtt.connect('ws://localhost:9001'); // Porta WebSocket do Mosquitto
+// Conexão MQTT com broker público HiveMQ (gratuito)
+// Para usar seu próprio broker, substitua a URL abaixo
+const client = mqtt.connect('wss://broker.hivemq.com:8884/mqtt');
 
 client.on('connect', () => {
     console.log('Conectado ao Mosquitto!');
@@ -50,7 +51,7 @@ document.getElementById('modoNormalBtn').addEventListener('click', () => {
 document.getElementById('enviarMensagemBtn').addEventListener('click', () => {
     const mensagem = document.getElementById('mensagemLCD').value;
     if (mensagem) {
-        client.publish('/semaforo/lcd/mensagem', mensagem);
+        client.publish('/semaforo/lcd', mensagem);
         addLog(`Mensagem enviada para LCD: ${mensagem}`);
         document.getElementById('mensagemLCD').value = ''; // Limpar campo
     } else {

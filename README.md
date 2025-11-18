@@ -1,5 +1,10 @@
 # Módulo 4 - Semáforo Inteligente
 
+## 🌐 Demo Online
+**Interface Web:** [https://pietroalkmin.github.io/Ponderada-Semaforo-Inteligente/](https://pietroalkmin.github.io/Ponderada-Semaforo-Inteligente/)
+
+Veja [DEPLOY.md](DEPLOY.md) para instruções completas de deploy e configuração.
+
 ## Integrantes
 - <a href="www.linkedin.com/in/joãocardosodias">João Cardoso Dias</a>
 - <a href="https://www.linkedin.com/in/leunam/">Leunam Sousa de Jesus</a>

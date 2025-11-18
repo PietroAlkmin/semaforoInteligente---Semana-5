@@ -12,7 +12,9 @@ const char* ssid = "Inteli.Iot";
 const char* password = "%(Yk(sxGMtvFEs.3";
 
 // ===== CONFIGURAÇÕES MQTT =====
-const char* mqtt_server = "10.128.0.140";
+// Broker público HiveMQ (gratuito) - funciona com GitHub Pages
+// Para usar broker local, mude para: "10.128.0.140" porta 1883
+const char* mqtt_server = "broker.hivemq.com";
 const int mqtt_port = 1883;
 WiFiClient espClient;
 PubSubClient client(espClient);
